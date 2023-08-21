@@ -50,7 +50,12 @@ const Players = () => {
 
           <div className="keen-slider__slide container3-2">
             <div className="group-left top-topic6">
-              <Topic topicNumber="03" topicName="GROWTH" underlineColor="white">
+              <Topic
+                topicNumber="03"
+                topicName="GROWTH"
+                underlineColor="white"
+                numberColor="purple"
+              >
                 Save your time, recruit proper athlets for your team.
               </Topic>
             </div>
@@ -59,10 +64,7 @@ const Players = () => {
       </div>
 
       {loaded && instanceRef.current && (
-        <div
-          className="dots"
-          style={{ position: "absolute", zIndex: "10", left: "50%" }}
-        >
+        <div className="dots">
           {[
             ...Array(instanceRef.current.track.details.slides.length).keys(),
           ].map((idx) => {

@@ -1,11 +1,19 @@
 import React from "react";
 
-const Topic = ({ topicName, topicNumber, children, underlineColor }) => {
+const Topic = ({
+  topicName,
+  topicNumber,
+  children,
+  underlineColor,
+  numberColor = "black",
+}) => {
   return (
     <div>
       <div className="topic-container">
         <div style={{ paddingRight: "10px" }}>
-          <div className="number-topic">{topicNumber}</div>
+          <div className={"number-topic " + String(numberColor)}>
+            {topicNumber}
+          </div>
           <div
             className="underline"
             style={{

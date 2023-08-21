@@ -62,10 +62,7 @@ const Athlets = () => {
       </div>
 
       {loaded && instanceRef.current && (
-        <div
-          className="dots"
-          style={{ position: "absolute", zIndex: "10", left: "50%" }}
-        >
+        <div className="dots">
           {[
             ...Array(instanceRef.current.track.details.slides.length).keys(),
           ].map((idx) => {
