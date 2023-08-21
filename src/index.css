@@ -1,13 +1,453 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.top-topic1 {
+  top: 188px;
+}
+
+.top-topic2 {
+  top: 53px;
+}
+
+.top-topic3 {
+  top: 80px;
+}
+
+.top-topic4 {
+  top: 297px;
+}
+
+.top-topic5 {
+  top: 52px;
+}
+
+.top-topic6 {
+  top: 87px;
+}
+
+.container1 {
+  position: relative;
+  background-color: #ffffff;
+  height: 345px;
+}
+
+.container1-2 {
+  position: relative;
+  background-color: #ffffff;
+  height: 485px;
+}
+
+.container2 {
+  position: relative;
+  background-color: #f5f4f9;
+  height: 256px;
+}
+
+.container2-2 {
+  position: relative;
+  background-color: #f5f4f9;
+  height: 245px;
+}
+
+.container3-1 {
+  position: relative;
+  background: #5e3db3;
+  height: 297px;
+}
+
+.container3-2 {
+  position: relative;
+  background: #090c35;
+  height: 268px;
+}
+
+/*-----TITLE-----*/
+.title {
+  color: #e7e7e7;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.title-position1 {
+  position: absolute;
+  left: 52.5%;
+  top: 24px;
+  z-index: 10;
+}
+
+.title-position2 {
+  position: absolute;
+  left: 16.77%;
+  top: 124px;
+  z-index: 10;
+}
+
+/*-----TOPIC-----*/
+.topic {
+  color: #c2c2c2;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.topic-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 21px;
+}
+
+.number-topic {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding-bottom: 4px;
+}
+
+.underline {
+  height: 5px;
+  width: 22px;
+  border-radius: 2.5px;
+}
+
+/*-----DETAIL-----*/
+.detail {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.group-right {
+  position: absolute;
+  margin-right: 10.15%;
+  left: 52.5%;
+}
+
+.group-left {
+  position: absolute;
+  margin-right: 53.49%;
+  left: 16.77%;
+}
+
+/*-----IMAGE-----*/
+.img-rugby {
+  background-image: url("./images/rugby-1.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 35px;
+  right: 55.57%;
+  z-index: 10;
+  height: 950px;
+  width: 678px;
+}
+
+.img-basketball {
+  background-image: url("./images/basketball-1.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 898px;
+  right: 6.51%;
+  z-index: 10;
+  height: 815px;
+  width: 991px;
+}
+
+.mySlides {
+  display: flex;
+}
+
+.carousel-nav,
+.carousel-indicator,
+.carousel-indicator-2 {
+  display: none;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .top-topic1 {
+    top: 228px;
+  }
+
+  .top-topic2 {
+    top: 30px;
+  }
+
+  .top-topic3 {
+    top: 30px;
+  }
+
+  .top-topic4 {
+    top: 191px;
+  }
+
+  .top-topic5 {
+    top: 51px;
+  }
+
+  .top-topic6 {
+    top: 44px;
+  }
+
+  .container1 {
+    position: relative;
+    background-color: #ffffff;
+    height: 377px;
+  }
+
+  .container1-2 {
+    position: relative;
+    background-color: #ffffff;
+    height: 348px;
+  }
+
+  .container2 {
+    position: relative;
+    background-color: #f5f4f9;
+    height: 235px;
+  }
+
+  .container2-2 {
+    position: relative;
+    background-color: #f5f4f9;
+    height: 235px;
+    width: 100%;
+  }
+
+  .container3-1 {
+    position: relative;
+    background: #5e3db3;
+    height: 207px;
+  }
+
+  .container3-2 {
+    position: relative;
+    background: #090c35;
+    height: 207px;
+  }
+
+  /*-----TITLE-----*/
+  .title-position1 {
+    position: absolute;
+    left: 37.89%;
+    top: 81px;
+    z-index: 10;
+  }
+
+  .title-position2 {
+    position: absolute;
+    left: 4.04%;
+    top: 51px;
+    z-index: 10;
+  }
+
+  /*-----DETAIL-----*/
+  .detail {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .group-right {
+    position: absolute;
+    margin-right: 4.01%;
+    left: 37.89%;
+  }
+
+  .group-left {
+    position: absolute;
+    margin-right: 39.45%;
+    left: 4.3%;
+  }
+
+  /*-----IMAGE-----*/
+  .img-rugby {
+    background-image: url("./images/rugby-2.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 155px 0;
+    top: 102px;
+    right: 55.57%;
+    z-index: 10;
+    height: 718px;
+    width: 498px;
+  }
+
+  .img-basketball {
+    background-image: url("./images/basketball-2.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 852px;
+    right: 0;
+    z-index: 10;
+    height: 568px;
+    width: 437px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container1,
+  .container1-2,
+  .container2,
+  .container2-2,
+  .container3-1,
+  .container3-2 {
+    position: relative;
+    background-color: #f5f4f9;
+    height: 284px;
+  }
+
+  /*-----TITLE-----*/
+  .title {
+    color: #e7e7e7;
+    font-size: 50px;
+    font-weight: 400;
+  }
+
+  .title-position1 {
+    position: absolute;
+    left: 18px;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .title-position2 {
+    position: absolute;
+    left: 18px;
+    top: 19px;
+    z-index: 10;
+  }
+
+  /*-----TOPIC-----*/
+  .topic {
+    color: #c2c2c2;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+
+  .topic-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .number-topic {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    padding-bottom: 2px;
+  }
+
+  .underline {
+    background-color: #603ebe !important;
+    height: 4px;
+    width: 17px;
+    border-radius: 2.5px;
+  }
+
+  /*-----DETAIL-----*/
+  .detail {
+    color: #000000 !important;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .group-left,
+  .group-right {
+    width: 88.75%;
+    position: absolute;
+    margin-right: 0;
+    top: 25.35%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  /*-----IMAGE-----*/
+  .img-rugby {
+    background-image: url("./images/rugby-3.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    right: 0;
+    top: 70px;
+    left: 16.25%;
+    z-index: 10;
+    height: 281px;
+    width: 218px;
+  }
+
+  .img-basketball {
+    background-image: url("./images/basketball-3.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: 681px;
+    left: 0%;
+    z-index: 10;
+    height: 249px;
+    width: 302px;
+  }
+
+  /*-----CAROUSEL-----*/
+  .carousel-nav {
+    top: 540px;
+    position: absolute;
+    width: 16.88%;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-indicator,
+  .carousel-indicator-2 {
+    display: flex;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 50%;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #d8d8d8;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .carousel-indicator:hover {
+    background-color: #5c3caf;
+  }
+
+  .mySlides,
+  .mySlides-2 {
+    display: none;
+  }
+
+  .displayBlock {
+    display: block;
+  }
+
+  .slideshow-container {
+    padding-top: 296px;
+    display: block;
+    position: relative;
+    height: 284px;
+    margin: 0 auto;
+  }
 }
